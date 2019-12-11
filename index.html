@@ -13,6 +13,15 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 
 </head>
@@ -39,22 +48,140 @@
     </nav>
     <!-- Menu -->
     <header>
-        <!-- <div class="containerheader">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nesciunt non voluptatem
-                asperiores architecto temporibus mollitia, facere iusto at unde laborum velit ullam assumenda. Tenetur
-                atque porro similique quia?</p>
-            <img class="primeiraimagem" src="./img/f711638d978a0c1386884f999ba1d623.png"
-                alt="Figura de duas mulheres abraçando a gestante">
-        </div> -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/pag1.jpg" class="d-block w-100 imagem-carousel"
+                        alt="Se doula fosse remedio seria antietico não receitar">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/foto2.png" class="d-block w-100 imagem-carousel"
+                        alt="Para mudar o mundo é preciso mudar a forma de nascer">
+                </div>
+            </div>
+        </div>
     </header>
+    <!-- cards - meus projetos -->
+    <section>
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <!-- card1 -->
+                <div class="card tamanho-card" style="width: 18rem;">
+                    <img class="card-img-top imagem-cards" src="./img/papeldadoula.gif"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Papel da doula</h5>
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o
+                            conteúdo do card.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal01">Visitar</a>
+                    </div>
+                </div>
 
+                <!-- modal card 01 -->
+                <div class="modal" tabindex="-1" role="dialog" id="modal01">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Título do modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Texto do corpo do modal, é aqui.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- adicionar jQuery aqui! -->
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <!-- adicionar js do bootstrap aqui! -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- fontAewsome kit para os ícones do projeto -->
-    <script src="https://kit.fontawesome.com/adb42fac4a.js" crossorigin="anonymous"></script>
+                <!-- card 2 -->
+                <div class="card tamanho-card" style="width: 18rem;">
+                    <img class="card-img-top imagem-cards" src="./img/foto1.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o
+                            conteúdo do card.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal02">Visitar</a>
+                    </div>
+                </div>
+
+                <!-- modal card 02 -->
+                <div class="modal" tabindex="-1" role="dialog" id="modal02">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Título do modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Texto do corpo do modal, é aqui.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="card tamanho-card" style="width: 18rem;">
+                    <img class="card-img-top imagem-cards" src="./img/Doula2-1.jpg"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o
+                            conteúdo do card.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal03">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal card 03 -->
+        <div class="modal" tabindex="-1" role="dialog" id="modal03">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Título do modal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Texto do corpo do modal, é aqui.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <section class="informacoes__titulo">
+        <h1 class="Titulo"> O papel da Doula</h1>
+        <div class = "papeldoula">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magni nemo dolore sint? Commodi, voluptas harum nihil sunt praesentium aliquid libero, sint fuga, fugiat recusandae labore voluptates similique consequuntur sed!
+            </p>
+            <img src="./img/papeldadoula.gif" alt="">
+        </div>
+    </section> -->
+
+        <!-- adicionar jQuery aqui! -->
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <!-- adicionar js do bootstrap aqui! -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- fontAewsome kit para os ícones do projeto -->
+        <script src="https://kit.fontawesome.com/adb42fac4a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
