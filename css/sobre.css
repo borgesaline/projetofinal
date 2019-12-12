@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-roxo {
+    background-color: #F28D9F;
+}
+
+.autora {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.8rem;
+    color: #F28D9F;
+}
+
+.minibio {
+    margin: 10%;
+}
+
+.minibio__imagem {
+    width: 450px;
+    height: 450px;
+}
+
+@media (max-width: 800px) {
+    .minibio__imagem {
+        width: 250px;
+        height: 250px;
+    }
+}
