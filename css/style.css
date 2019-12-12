@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .bg-roxo{
-    background-color: #997E7A;
+    background-color: #BF7582;
 }
 
 .primeiraimagem{
@@ -26,11 +26,16 @@
 }
 
 .tamanho-card{
-    width: 18rem;
+    width: 10rem;
 }
 
 .imagem-cards{
     object-fit: cover;
     object-position: top;
-    height: 50vh;
+    height: 40vh;
+}
+
+.container__doula{
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
