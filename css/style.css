@@ -12,7 +12,6 @@
 .imagem-carousel {
     object-fit: cover;
     object-position: 0 10%;
-    height: 65vh;
 }
 
 .informacoes{
@@ -38,4 +37,10 @@
 .container__doula{
     margin-top: 6%;
     margin-bottom: 6%;
+}
+
+@media (max-width: 400px){
+    .container__doula {
+        margin-bottom: 20px;
+    }
 }
