@@ -28,6 +28,13 @@
 .tamanho-card {
     width: 10rem;
 }
+.cor-botao{
+    background-color: #b1acb1;
+}
+
+.corletrabtn{
+    color: white;
+}
 
 .imagem-cards {
     object-fit: cover;
@@ -42,8 +49,6 @@
 
 footer{
     background-color: #AB2F52;
-    margin-top: 15px;
-    background-repeat: no-repeat;
     }
 
 
