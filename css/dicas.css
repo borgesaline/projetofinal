@@ -7,7 +7,6 @@
 }
 
 .dicasdadoula {
-
     border-radius: 10px;
     background-color: #f3f3f3;
     padding: 25px;
@@ -47,4 +46,12 @@ hr {
 
 footer {
     background-color: #AB2F52;
+}
+
+@media (max-width: 400px) {
+    .dicas-doula {
+        width: 250px;
+        height: 250px;
+    }
+
 }
