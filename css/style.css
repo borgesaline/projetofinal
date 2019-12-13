@@ -40,6 +40,12 @@
     margin-bottom: 6%;
 }
 
+footer{
+    background-color: #AB2F52;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    }
+
 
 @media (max-width: 400px) {
     .container__doula {

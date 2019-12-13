@@ -32,33 +32,50 @@ hr{
     margin: 0 auto;
 }
 
-.dep_dir{
-    width: 50%;
-    margin-right: 60%;
+.tamanho-card {
+    width: 10rem;
 }
 
-.dep__esq{
-    width: 50%;
-    margin-left: 30%;
-    color: #6B4C7F;
+.imagem-cards {
+    object-fit: cover;
+    object-position: top;
+    height: 40vh;
+}
+
+.container__doula {
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .autora1{
     font-family: "Dancing Script", cursive;
     font-size: 2.8rem;
     color: #F28D9F;
-    margin-left: 30%;
+    text-align: center;
 }
 
 
 .container__depoimentos {
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer{
+    background-color: #AB2F52;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    }
+
+.icones{
+    color: white;
 }
 
 
 @media (max-width: 400px) {
     .container__depoimentos {
+        margin-bottom: 20px;
+    }
+    .container__doula {
         margin-bottom: 20px;
     }
 }
